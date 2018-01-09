@@ -1,0 +1,34 @@
+{
+    "name": "zhf.applications",
+    "version": "1.0.8",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "codeLint": "eslint --ext .js,.vue,.html ./",
+        "codeFix": "eslint --fix --ext .js,.vue,.html ./",
+        "test": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zhouhuafei/zhf.applications.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zhouhuafei/zhf.applications/issues"
+    },
+    "homepage": "https://github.com/zhouhuafei/zhf.applications#readme",
+    "dependencies": {
+        "zhf.tools": "^1.0.5"
+    },
+    "devDependencies": {
+        "babel-eslint": "^8.0.2",
+        "eslint": "^4.11.0",
+        "eslint-config-standard": "^10.2.1",
+        "eslint-plugin-html": "^3.2.2",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-node": "^5.2.1",
+        "eslint-plugin-promise": "^3.6.0",
+        "eslint-plugin-standard": "^3.0.1"
+    }
+}
