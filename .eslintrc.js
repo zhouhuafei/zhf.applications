@@ -9,6 +9,7 @@ module.exports = {
         commonjs: true,
         node: true,
         browser: true,
+        jest: true,
     },
     plugins: ['html'],
     /*

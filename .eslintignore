@@ -1,4 +1,1 @@
 node_modules
-*.test.js
-*.spec.js
-__test__

@@ -1,12 +1,12 @@
 {
     "name": "zhf.applications",
-    "version": "1.0.11",
+    "version": "1.0.13",
     "description": "no description",
     "main": "index.js",
     "scripts": {
         "codeLint": "eslint --ext .js,.vue,.html ./",
         "codeFix": "eslint --fix --ext .js,.vue,.html ./",
-        "test": ""
+        "test": "jest"
     },
     "repository": {
         "type": "git",
@@ -19,7 +19,7 @@
     },
     "homepage": "https://github.com/zhouhuafei/zhf.applications#readme",
     "dependencies": {
-        "zhf.tools": "^1.0.11"
+        "zhf.tools": "^1.0.13"
     },
     "devDependencies": {
         "babel-eslint": "^8.0.2",
@@ -29,6 +29,7 @@
         "eslint-plugin-import": "^2.8.0",
         "eslint-plugin-node": "^5.2.1",
         "eslint-plugin-promise": "^3.6.0",
-        "eslint-plugin-standard": "^3.0.1"
+        "eslint-plugin-standard": "^3.0.1",
+        "jest": "^22.1.1"
     }
 }
