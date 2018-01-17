@@ -4,7 +4,7 @@ const uglify = require('gulp-uglify');
 const rename = require('gulp-rename');
 
 gulp.task('watch', function () {
-    gulp.watch(['src/**/*.**'], ['es5','jsmin']);
+    gulp.watch(['src/**/*.**'], ['es5', 'jsmin']);
 });
 
 gulp.task('es5', function () {
