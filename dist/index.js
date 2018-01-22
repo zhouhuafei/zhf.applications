@@ -1,6 +1,6 @@
 'use strict';
 
-var tools = require('zhf.tools');
+var extend = require('zhf.extend');
 
 // 应用方法集合
 function Applications() {}
@@ -389,15 +389,12 @@ Applications.prototype.select = function () {
     var self = this;
 
     function Select(json) {
-        this.opts = tools.extend({
-            defaults: {
-                items: null, // 所有的被选项
-                callback: {
-                    click: function click() {}
-                }
-            },
-            inherits: json
-        });
+        this.opts = extend({
+            items: null, // 所有的被选项
+            callback: {
+                click: function click() {}
+            }
+        }, json);
         this.itemsDom = self.getDomArray(this.opts.items); // 获取原生的dom节点并转换成数组
         this.init();
     }
@@ -450,19 +447,16 @@ Applications.prototype.select = function () {
 // 当滚动到了浏览器的底部
 Applications.prototype.whenScrollBottom = function () {
     function WhenScrollBottom(json) {
-        this.opts = tools.extend({
-            defaults: {
-                callback: {
-                    success: function success() {},
-                    failure: function failure() {}
-                },
-                isBindScrollEvent: true, // 是否绑定滚动事件
-                isInitRender: true, // 是否初始化的时候就进行渲染
-                interval: 80, // 函数节流时间(延迟时间)
-                errorHeight: 0 // 滚动到底部上面一定高度就算是滚动到底部了(误差高度)
+        this.opts = extend({
+            callback: {
+                success: function success() {},
+                failure: function failure() {}
             },
-            inherits: json
-        });
+            isBindScrollEvent: true, // 是否绑定滚动事件
+            isInitRender: true, // 是否初始化的时候就进行渲染
+            interval: 80, // 函数节流时间(延迟时间)
+            errorHeight: 0 // 滚动到底部上面一定高度就算是滚动到底部了(误差高度)
+        }, json);
         this.timer = null; // 定时器
         this.isLoadOver = false; // 数据是否加载完毕
         this.init();

@@ -1,6 +1,6 @@
 {
     "name": "zhf.applications",
-    "version": "1.0.17",
+    "version": "1.0.18",
     "description": "no description",
     "main": "dist/index.min.js",
     "scripts": {
@@ -20,7 +20,7 @@
     },
     "homepage": "https://github.com/zhouhuafei/zhf.applications#readme",
     "dependencies": {
-        "zhf.tools": "^1.0.17"
+        "zhf.extend": "^2.0.1"
     },
     "devDependencies": {
         "babel-eslint": "^8.0.2",
