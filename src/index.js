@@ -314,7 +314,7 @@ Applications.prototype.imgUploadBase64 = function () {
     return Fn;
 };
 
-// 是不是PC
+// 是不是PC端
 Applications.prototype.isPc = function () {
     const userAgentInfo = navigator.userAgent;
     const Agents = ['Android', 'iPhone', 'SymbianOS', 'Windows Phone', 'iPad', 'iPod'];
@@ -328,17 +328,21 @@ Applications.prototype.isPc = function () {
     return flag;
 };
 
-// 是不是微信
+Applications.prototype.isH5 = function () {
+    return !this.isPc();
+};
+
+// 是不是微信环境
 Applications.prototype.isWeiXin = function () {
     return navigator.userAgent.toLowerCase().match(/MicroMessenger/ig);
 };
 
-// 是不是android
+// 是不是android系统
 Applications.prototype.isAndroid = function () {
     return window.navigator.appVersion.match(/android/ig);
 };
 
-// 是不是iphone
+// 是不是ios系统
 Applications.prototype.isIos = function () {
     return window.navigator.appVersion.match(/iphone/ig);
 };
