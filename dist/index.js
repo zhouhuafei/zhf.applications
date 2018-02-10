@@ -343,7 +343,7 @@ Applications.prototype.isAndroid = function () {
 };
 
 // 是不是iphone
-Applications.prototype.isIphone = function () {
+Applications.prototype.isIos = function () {
     return window.navigator.appVersion.match(/iphone/ig);
 };
 
