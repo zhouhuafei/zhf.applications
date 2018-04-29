@@ -41,6 +41,7 @@
         "zhf.browser-platform": "^1.0.1",
         "zhf.cookie": "^1.0.3",
         "zhf.create-element": "^1.0.1",
+        "zhf.dom-remove": "^1.0.2",
         "zhf.extend": "^2.0.1",
         "zhf.get-dom-array": "^1.0.4",
         "zhf.get-parent": "^1.0.0",

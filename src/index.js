@@ -11,6 +11,7 @@ Applications.prototype.AddSubtractInput = require('zhf.add-subtract-input'); // 
 Applications.prototype.getDomArray = require('zhf.get-dom-array'); // 获取原生的dom节点并转换成数组
 Applications.prototype.getParent = require('zhf.get-parent'); // 获取指定父级
 Applications.prototype.htmlToDom = require('zhf.html-to-dom'); // html转成DOM节点
+Applications.prototype.domRemove = require('zhf.dom-remove'); // 移除dom
 Applications.prototype.browserPlatform = require('zhf.browser-platform'); // 浏览器平台检测
 Applications.prototype.offset = require('zhf.offset'); // 获取元素距离文档的left和top
 Applications.prototype.scrollMoveTo = require('zhf.scroll-move-to'); // 滚动到指定位置
