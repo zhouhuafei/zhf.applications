@@ -36,6 +36,18 @@
         "jest": "^22.1.1"
     },
     "dependencies": {
-        "zhf.extend": "^2.0.1"
+        "zhf.add-subtract-input": "^1.0.4",
+        "zhf.browser-platform": "^1.0.1",
+        "zhf.cookie": "^1.0.3",
+        "zhf.create-element": "^1.0.1",
+        "zhf.extend": "^2.0.1",
+        "zhf.get-dom-array": "^1.0.4",
+        "zhf.get-parent": "^1.0.0",
+        "zhf.html-to-dom": "^1.0.2",
+        "zhf.offset": "^1.0.4",
+        "zhf.scroll-move-to": "^1.0.0",
+        "zhf.select-all": "^1.0.1",
+        "zhf.when-scroll-bottom": "^1.0.2",
+        "zhf.whether-disable-scroll": "^1.0.1"
     }
 }
