@@ -1,6 +1,6 @@
 {
     "name": "zhf.applications",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "description": "no description",
     "main": "dist/index.min.js",
     "scripts": {
@@ -37,7 +37,7 @@
         "jest": "^22.1.1"
     },
     "dependencies": {
-        "zhf.add-subtract-input": "^1.0.5",
+        "zhf.add-subtract-input": "^1.0.6",
         "zhf.browser-platform": "^1.0.1",
         "zhf.cookie": "^1.0.3",
         "zhf.create-element": "^1.0.1",
