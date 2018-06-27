@@ -1,6 +1,6 @@
 {
     "name": "zhf.applications",
-    "version": "2.0.6",
+    "version": "2.0.7",
     "description": "no description",
     "main": "dist/index.min.js",
     "scripts": {
@@ -48,7 +48,7 @@
         "zhf.html-to-dom": "^1.0.2",
         "zhf.offset": "^1.0.4",
         "zhf.scroll-move-to": "^1.0.0",
-        "zhf.select-all": "^1.0.3",
+        "zhf.select-all": "^1.0.4",
         "zhf.when-scroll-bottom": "^1.0.2",
         "zhf.whether-disable-scroll": "^1.0.1"
     }
